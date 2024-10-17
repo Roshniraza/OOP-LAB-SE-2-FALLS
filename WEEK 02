@@ -1,0 +1,66 @@
+**********************************************// first task********************************************
+#include<iostream>
+using namespace std;
+class employee{
+	public:
+		string name;
+		string jobtitle;
+	     double salary;
+	     void displayinfo();
+};
+
+int main(){
+
+	employee e;
+	e.name="Roshni";
+	e.jobtitle="software engineer";
+	e.salary=150000;
+	cout<<"name:"<<e.name<<endl;
+	cout<<"jobtitle"<<e.jobtitle<<endl;
+	cout<<"salary"<<e.salary<<endl;
+	e.displayinfo();
+	return 0;
+	
+}
+******************************************************//second task************************************
+#include<iostream>
+using namespace std;
+class car{
+	public:
+		string name;
+		double topspeed;
+	     int modelname;
+	     void displayinfo();
+};
+
+int main(){
+
+	car c;
+	c.name="Honda Cty";
+	c.topspeed=180;
+	c.modelname=2023;
+	cout<<"name:"<<c.name<<endl;
+	cout<<"topspeed"<<c.topspeed<<endl;
+	cout<<"modelname"<<c.modelname<<endl;
+	c.displayinfo();
+	return 0;
+	
+}
+*****************************************************// third code *****************************************************
+
+
+#include<iostream>
+using namespace std;
+class laptop{
+	public:
+		string brand;
+		int model;
+	     string serial;
+	     string color;
+	     int price;
+	     string processorspeed;
+	     string Ram;
+	     int screensize;
+	     
+	     void displayinfo();
+};
